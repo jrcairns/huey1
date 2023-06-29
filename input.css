@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  background-image: url('/images/bg-hero-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mobile {
+  background-image: url('/images/bg-hero-mobile.svg');
+}
+
+.logo {
+  width: 25%;
+  height: 25px;
+}
+
+.btn {
+  background: hsl(322, 100%, 66%);
+  width: 50%;
+  height: 40px;
+}
+
+.btn-i {
+  background: hsl(322, 100%, 66%);
+  width: 60%;
+  height: 45px;
+}
+
+.btn-o {
+  width: 135px;
+  height: 30px;
+}
+
+@media (max-width: 375px) {
+  background-image: url('/images/bg-hero-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
